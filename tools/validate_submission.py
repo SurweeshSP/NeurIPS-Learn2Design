@@ -436,7 +436,11 @@ def summarize_objective(objective: Any) -> dict[str, Any]:
     import numpy as np
 
     losses = list(getattr(objective, "loss_history", []))
+    if not losses:
+        losses = list(getattr(objective, "batched_loss_history", []))
     feasibility = list(getattr(objective, "is_feasible_history", []))
+    if not feasibility:
+        feasibility = list(getattr(objective, "batched_is_feasible_history", []))
     finite_candidates = 0
     feasible_candidates = 0
     missing_feasibility = 0

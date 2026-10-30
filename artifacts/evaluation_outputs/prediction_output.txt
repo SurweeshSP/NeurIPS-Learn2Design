@@ -1,0 +1,9 @@
+=== PREDICTION STEP EXECUTION LOG ===
+Optimizer:               TopologyAwareEliteHybridOptimizer (topology_aware_hybrid_optimizer)
+Topology Seed:           42
+Optimizer Seed:          123
+Evaluations Logged:      0
+Finite Candidates:       0
+Feasible Candidates:     0
+Objective Wall Time:     41.08s
+Budget Exceeded Flag:    True

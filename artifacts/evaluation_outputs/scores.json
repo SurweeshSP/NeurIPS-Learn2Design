@@ -1,0 +1,14 @@
+{
+  "best_feasible_loss": null,
+  "feasible_candidate_count": 0,
+  "finite_candidate_count": 0,
+  "total_evaluations": 0,
+  "evaluations_per_second": 0.0,
+  "wall_time_seconds": 41.07799999997951,
+  "objective_time_seconds": 25.60488486289978,
+  "budget_exceeded": true,
+  "optimizer_class": "TopologyAwareEliteHybridOptimizer",
+  "algorithm_name": "topology_aware_hybrid_optimizer",
+  "topology_seed": 42,
+  "optimizer_seed": 123
+}
